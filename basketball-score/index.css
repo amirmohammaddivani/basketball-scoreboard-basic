@@ -1,0 +1,90 @@
+@font-face {
+  font-family: CursedTimerUlil;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  /* padding: 20px 20px; */
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-shadow: 0 0 1px black;
+  cursor: pointer;
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+button:hover {
+  top: -5px;
+  color: lawngreen;
+  border-color: lawngreen;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+  background-color: teal;
+  /* margin: 50px auto; */
+  border-radius: 20px;
+}
+
+.board {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: chartreuse;
+  font-family: CursedTimerUlil;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  
+}
+
+.ctrl {
+  height: 100px;
+  width: 200px;
+  /* background-color: darkorange; */
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.home-away {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+  /* margin: 20px auto; */
+}
+
+#home-s {
+  font-size: 150px;
+}
+#away-s {
+  font-size: 150px;
+}
+
+
